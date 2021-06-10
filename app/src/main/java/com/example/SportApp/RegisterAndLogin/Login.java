@@ -1,4 +1,4 @@
-package com.example.SportApp;
+package com.example.SportApp.RegisterAndLogin;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,17 +11,19 @@ import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.text.Layout;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.SportApp.MainActivity;
+import com.example.SportApp.MyDatabaseHelper;
+import com.example.SportApp.R;
 
 public class Login extends AppCompatActivity {
 
@@ -98,7 +100,7 @@ public class Login extends AppCompatActivity {
                         editor.commit();
 
                         //跳转到主页，传输登陆用户的ID
-                        Intent toMainActivity = new Intent(Login.this,MainActivity.class);
+                        Intent toMainActivity = new Intent(Login.this, MainActivity.class);
 
                         if (getID.moveToNext()){
                             int id_query = getID.getInt(getID.getColumnIndex("_id"));

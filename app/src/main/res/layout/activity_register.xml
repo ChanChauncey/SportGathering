@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Register"
+    tools:context=".RegisterAndLogin.Register"
     android:id="@+id/register_layout"
     android:focusable="true"
     android:focusableInTouchMode="true">
 <!--    android:background="@drawable/background">-->
 
-    <com.example.SportApp.CustomVideoView
+    <com.example.SportApp.RegisterAndLogin.CustomVideoView
         android:id="@+id/videoView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

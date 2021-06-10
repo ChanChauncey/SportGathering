@@ -1,4 +1,4 @@
-package com.example.SportApp.ui.notifications;
+package com.example.SportApp.Notification;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -19,15 +19,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
 
 import com.example.SportApp.ChangePassword;
-import com.example.SportApp.Login;
+import com.example.SportApp.RegisterAndLogin.Login;
 import com.example.SportApp.MainActivity;
 import com.example.SportApp.MyDatabaseHelper;
 import com.example.SportApp.R;
-import com.example.SportApp.Register;
 
 public class NotificationsFragment extends Fragment {
 

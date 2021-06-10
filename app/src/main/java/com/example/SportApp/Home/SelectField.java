@@ -1,4 +1,4 @@
-package com.example.SportApp;
+package com.example.SportApp.Home;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,9 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+
+import com.example.SportApp.MainActivity;
+import com.example.SportApp.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -19,11 +19,11 @@
         </activity>
 
         <activity
-            android:name=".Register"
+            android:name=".RegisterAndLogin.Register"
             android:label="注册" />
 
         <activity
-            android:name=".Login"
+            android:name=".RegisterAndLogin.Login"
             android:label="校运汇">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,10 +32,10 @@
         </activity>
 
         <activity
-            android:name=".SelectField"
+            android:name=".Home.SelectField"
             android:label="场地选择" />
         <activity
-            android:name=".SelectDate"
+            android:name=".Home.SelectDate"
             android:label="日期选择" />
         <activity
             android:name=".MainActivity"

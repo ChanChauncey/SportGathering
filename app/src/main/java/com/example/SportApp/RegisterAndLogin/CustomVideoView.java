@@ -1,4 +1,4 @@
-package com.example.SportApp;
+package com.example.SportApp.RegisterAndLogin;
 
 import android.content.Context;
 import android.media.MediaPlayer;

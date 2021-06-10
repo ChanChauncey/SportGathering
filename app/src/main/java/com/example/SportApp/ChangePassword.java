@@ -1,7 +1,6 @@
 package com.example.SportApp;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.NavUtils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,6 +15,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Toast;
+
+import com.example.SportApp.RegisterAndLogin.Login;
 
 public class ChangePassword extends AppCompatActivity {
 

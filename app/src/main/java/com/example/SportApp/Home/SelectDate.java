@@ -1,4 +1,4 @@
-package com.example.SportApp;
+package com.example.SportApp.Home;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -7,7 +7,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.CalendarView;
 
-import com.example.SportApp.ui.home.HomeFragment;
+import com.example.SportApp.MainActivity;
+import com.example.SportApp.R;
 
 public class SelectDate extends AppCompatActivity {
 

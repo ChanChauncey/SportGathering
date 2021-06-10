@@ -1,4 +1,4 @@
-package com.example.SportApp;
+package com.example.SportApp.RegisterAndLogin;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,12 +14,13 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.SportApp.MyDatabaseHelper;
+import com.example.SportApp.R;
 
 public class Register extends AppCompatActivity {
 
