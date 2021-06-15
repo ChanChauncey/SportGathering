@@ -33,4 +33,12 @@ public class SelectDate extends AppCompatActivity {
             }
         });
     }
+
+    /******************************返回上一页******************************/
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(SelectDate.this,MainActivity.class);
+        startActivity(intent);
+        super.onBackPressed();
+    }
 }
